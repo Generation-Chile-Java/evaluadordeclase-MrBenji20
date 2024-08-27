@@ -30,7 +30,7 @@ public class Evaluador {
         promedio = suma / materias.size();
 
         System.out.println("Su promedio de notas es de " + promedio);
-        
+
         if (promedio.equals(10)) {
             System.out.println("Exelente!!!");
         } else if (promedio > 5 && promedio <= 8) {
